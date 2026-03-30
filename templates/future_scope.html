@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CookItUp - Future Scope</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/css/style1_1.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #2e7d6d, #5fa8a3);
+            color: white;
+        }
+
+        .future-section {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .future-section h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .future-section p {
+            max-width: 800px;
+            margin: 0 auto 60px auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .future-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 40px;
+            padding: 40px 80px;
+        }
+
+        .future-card {
+            background: #f2f2f2;
+            color: #0b4d3b;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .future-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .future-icon {
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #2e7d6d;
+        }
+
+        .footer {
+            background-color: #0b4d3b;
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <span class="logo">
+            <i class="fas fa-utensils"></i> chefbot
+        </span>
+    </div>
+
+    <div class="navbar-center">
+        <ul>
+            <li><a href="/home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/about"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="/team"><i class="fas fa-users"></i> Our Team</a></li>
+            <li><a href="/future_scope"><i class="fas fa-lightbulb"></i> Future Scope</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="future-section">
+    <h1>Future Scope of ChefBot</h1>
+
+    <p>
+        ChefBot is an AI-powered recipe recommendation system integrated
+        with pantry management. In the future, the system can be enhanced
+        with intelligent automation and improved personalization to provide
+        a smarter cooking experience.
+    </p>
+
+    <div class="future-container">
+
+        <div class="future-card">
+            <i class="fas fa-brain future-icon"></i>
+            <h3>Enhanced AI Recommendation System</h3>
+            <p>
+                Improving machine learning models to provide more accurate
+                and personalized recipe suggestions based on user behavior
+                and ingredient history.
+            </p>
+        </div>
+
+        <div class="future-card">
+            <i class="fas fa-camera future-icon"></i>
+            <h3>Image-Based Ingredient Recognition</h3>
+            <p>
+                Integrating computer vision to allow users to upload images
+                of ingredients and automatically detect items for recipe suggestions.
+            </p>
+        </div>
+
+        <div class="future-card">
+            <i class="fas fa-heartbeat future-icon"></i>
+            <h3>Nutrition & Calorie Analysis</h3>
+            <p>
+                Providing nutritional information and calorie tracking
+                for recommended recipes to support healthy eating habits.
+            </p>
+        </div>
+
+        <div class="future-card">
+            <i class="fas fa-history future-icon"></i>
+            <h3>Smart Cooking History Tracking</h3>
+            <p>
+                Maintaining user cooking history to recommend recipes
+                based on previous preferences and frequently used ingredients.
+            </p>
+        </div>
+
+    
+
+        <div class="future-card">
+            <i class="fas fa-bell future-icon"></i>
+            <h3>Expiry & Low Stock Alerts</h3>
+            <p>
+                Implementing automatic notifications for low-stock or
+                expiring ingredients to reduce food wastage.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 Chefbot. All rights reserved by Team 12.
+</div>
+
+</body>
+</html>
